@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="/img/logo.ico">
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+    <body>
+        <header class="header">
+        <div>
+            <img class="header__logo" src="/img/logo.jpg" alt="logo">
+        </div>
+        <nav>
+            <ul class="header__navlist">
+                <li class="header__navanchor"><a href="/index.html">Inicio</a></li>
+                <li class="header__navanchor"><a href="nirvana.html">Nirvana</a></li>
+                <li class="header__navanchor"><a href="pearljam.html">Pearl Jam</a></li>
+                <li class="header__navanchor"><a href="soundgarden.html">Soundgarden</a> </li>
+                <li class="header__navanchor"><a href="aliceinchains.html">Alice In Chains</a></li>
+            </ul>
+        </nav>
+     </header>
+     <main>
+            <form class="registro__form" action="#" method="get" enctype="multipart/form-data" class="formulario">
+                <fieldset class="form__registro">
+                <legend><strong>REGISTRATE</strong></legend>
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="age">Edad</label>
+                <input type="number" name="age" id="age" min="18" max="99" required>
+            </div>
+            <div>
+                <label for="date">Fecha de nacimiento</label>
+                <input type="date" name="date" id="date" max="2022-11-29" required>
+            </div>
+            <strong>Bandas Favoritas</strong>
+            <div>
+                <label for="nirvana">Nirvana</label>
+                <input type="checkbox" name="nirvana" id="nirvana">
+            </div>
+            <div>
+                <label for="pearljam">Pearl Jam</label>
+                <input type="checkbox" name="pearljam" id="pearljam">
+            </div>
+                <label for="soundgarden">Soundgarden</label>
+                 <input type="checkbox" name="soundgarden" id="soundgarden">
+            <div>
+                <label for="aliceinchains">Alice In Chains</label>
+                <input type="checkbox" name="aliceinchains" id="aliceinchains">
+             </div>
+            <div>
+                <label for="comentarios">otros comentarios</label>
+                <input type="textarea" name="comment" id="comentarios"> 
+            </div>  
+                <strong>género</strong>
+            <div>
+                <label for="sexo">Masculino</label>
+                <input type="radio" name="sexo" id="sexo" value="hombre" >
+                <label for="sexo">Femenino</label>
+                <input type="radio" name="sexo" id="sexo" value="mujer" >
+                <label for="sexo">No quiero responder</label>
+                <input type="radio" name="sexo" id="sexo" value="no" >
+            </div>
+            <div>
+                <strong>Calzado Favorito</strong>
+                <label for="calzado"></label>
+                <select name="calzado" id="calzado" multiple>
+                    <option value="zapato" label="Zapato"></option>
+                    <option value="zapatilla" label="zapatilla"></option>
+                </select>
+            </div>
+            <div>
+                <label for="telefono">Teléfono</label>
+                <input type="phone" name="telefono" id="telefono">
+            </div> 
+            <div>
+                <label for="colorfavorito">color preferido</label>
+                <input type="color" name="color" id="colorfavorito">
+            </div>
+            <div>
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="rpassword">Repetir contraseña</label>
+                <input type="password" name="rpassword" id="rpassword">
+            </div>
+            <div>
+                <input type="reset" value="Reiniciar formulario">
+                <input type="submit" value="enviar">
+            </div>    
+        </fieldset>
+    </form> 
+ </main> 
+        <footer class="footer">
+             <p> ®Copyright 2022 Tincho Productions.Todos los derechos reservados</p>
+        </footer> 
+</body>
+</html>
