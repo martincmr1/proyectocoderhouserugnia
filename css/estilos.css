@@ -43,7 +43,7 @@ fieldset{
 
 /*ESTILOS MAIN*/
 .main {
-    background-image: url(/img/fondo4.jpg);
+    background-image: url(../img/fondo4.jpg);
     background-repeat: no-repeat;
     background-size: cover;     
 }
@@ -116,7 +116,9 @@ p {
                     align-content: space-around;
                     text-align: center;
 }
-
+.main__fotobanda1{ 
+                    height: 400px;
+}
 
 /*ESTILOS FOOTER*/
 .footer {background-color: black;
@@ -155,8 +157,71 @@ p {
 }
 
 @media screen and (max-width: 320px) {
-    .header__logo {
-        height: 30px;
+    
+    .header {
+        display: grid;
+        align-items: center;
+        justify-content: center;
     }
-}
+    .header__navlist li {
+        font-size: 1.3rem;
+        display: block;
+    }
+    .main__titulo {
+        font-size: 2rem;
+        color: white;
+        padding-left: 27px;
+        padding-top: 25px;
+    }
+    .imagen1__main {
+        height: 200px;
+        
+    }
+    .main__section p {
+        padding-top: 0rem;
+        padding-right: 1rem;
+        font-size: 1rem;
+    }
+    .main__section2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagen2__main {
+        height: 225px;
+       
+    }
+    .main__section2 p {
+    
+        font-size: 1rem;
+        padding-left: 6px;
+    }
+    .parrafo1main {
+        padding-top: 1rem;
+    }
+    .main__section {
+        display: flex;
+        flex-direction: column;
+    }
+    .main__titulo2 {
+        color: white;
+        font-size: 2rem;
+    }
+   .main__discografia {
+        
+        display: flex;
+        flex-direction: column;
+        padding-top: 6rem;
+        padding-left: 6px;
+        height: 344vh;
+    }
+    .form__registro {
+        font-size: 1rem;
+        color: gray;
+    }
+    .main__fotobanda1 {
+        height: 200px;
+    }
+    }
+
+
     
