@@ -146,15 +146,53 @@ p {
 /*estilos media queries moviles*/   
 
 @media screen and (max-width: 1024px){
+    .main__discografia {
+        display: grid;
+        grid-template-columns: repeat(3, 300px);
+        text-align: center;
+        height:1300px}
+.main__section   { 
+        display: flex;
+        flex-direction: column;
+    }
+  .imagen1__main{  
+    height: 590px;
+    padding: 1rem;
+    }
 
     
 }
 
 
 @media screen and (max-width: 768px){
-
-    
+ .header__logo {
+        height: 40px;
+    }
+.main__titulo {
+        font-size: 2rem;
+        padding-left: 13rem;
+    }
+    .main__section {
+        display: grid;
+    }
+   .imagen1__main {
+        height: 445px;
+    }
+    .imagen2__main{
+            height: 525px;
+        }
+.main__section2{
+                display: grid;
 }
+.main__discografia{
+        display: grid;
+        grid-template-columns: repeat(2,300px);
+        height: 100rem;
+    }
+
+    }
+
+
 
 @media screen and (max-width: 320px) {
     
