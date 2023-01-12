@@ -5,7 +5,9 @@
 }
 
 /* ESTILOS HEATHER*/
-
+.icono {
+    color: white;
+}
 .header{
         display: flex;
         justify-content: space-between;
@@ -36,9 +38,13 @@ fieldset{
         border-bottom-color: bisque
 }
 .header__navanchor--activo{
-    background-color:white        
+    background-color:white;
+    transition: 3s;
+          
 }   
-
+.header__navanchor--activo:hover{   
+                        height: 30px;
+}
 
 
 /*ESTILOS MAIN*/
@@ -56,7 +62,7 @@ text-align: center;
 padding-top: 2rem;
 }
 .parrafo1main {
-                padding-top: 2rem;
+                padding-top: 1rem;
 }
 .imagen1__main{ 
                 height: 300px; 
@@ -158,10 +164,9 @@ p {
   .imagen1__main{  
     height: 590px;
     padding: 1rem;
-    }
-
-    
+    }    
 }
+
 
 
 @media screen and (max-width: 768px){
@@ -192,74 +197,14 @@ p {
 
     }
 
-
-
-@media screen and (max-width: 320px) {
-    
-    .header {
-        display: grid;
-        align-items: center;
-        justify-content: center;
+@media screen and (max-width: 425px) {
+    .header{
+            width: 767px;   
     }
-    .header__navlist li {
-        font-size: 1.3rem;
-        display: block;
+    .main{
+        width: 767px;   
     }
-    .main__titulo {
-        font-size: 2rem;
-        color: white;
-        padding-left: 27px;
-        padding-top: 25px;
+    .footer{ 
+            width: 767px;
     }
-    .imagen1__main {
-        height: 200px;
-        
-    }
-    .main__section p {
-        padding-top: 0rem;
-        padding-right: 1rem;
-        font-size: 1rem;
-    }
-    .main__section2 {
-        display: flex;
-        flex-direction: column;
-    }
-    .imagen2__main {
-        height: 225px;
-       
-    }
-    .main__section2 p {
-    
-        font-size: 1rem;
-        padding-left: 6px;
-    }
-    .parrafo1main {
-        padding-top: 1rem;
-    }
-    .main__section {
-        display: flex;
-        flex-direction: column;
-    }
-    .main__titulo2 {
-        color: white;
-        font-size: 2rem;
-    }
-   .main__discografia {
-        
-        display: flex;
-        flex-direction: column;
-        padding-top: 6rem;
-        padding-left: 6px;
-        height: 344vh;
-    }
-    .form__registro {
-        font-size: 1rem;
-        color: gray;
-    }
-    .main__fotobanda1 {
-        height: 200px;
-    }
-    }
-
-
-    
+}
