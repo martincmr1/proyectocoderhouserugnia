@@ -199,12 +199,12 @@ p {
 
 @media screen and (max-width: 425px) {
     .header{
-            width: 767px;   
+            width: 425px;   
     }
     .main{
-        width: 767px;   
+        width: 425px;   
     }
     .footer{ 
-            width: 767px;
+            width: 425px;
     }
 }
