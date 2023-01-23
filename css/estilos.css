@@ -8,9 +8,9 @@
 .icono {
     color: white;
 }
-.header{
-        display: flex;
-        justify-content: space-between;
+.header {
+        /*display: flex;
+        justify-content: space-between;*/
         background-color: black;
 }
 fieldset{
@@ -19,28 +19,27 @@ fieldset{
 .header__logo{
                 height: 60px;                            
 }
-.header__navlist{
+/*.header__navlist{
                  margin: 1rem;                                      
 }
 .header__navlist li{ 
                 font-size: 1.5rem;
-                display: inline-block;                
-}
+                /*display: inline-block;  */              
+
 .header__navlist li a {
                 text-decoration: none;
                 color:darkgray;
-                margin: 1rem;            
+               /* margin: 1rem; */           
 }
 .registro{
         color:black;
         text-decoration: none;
         background-color: white;
-        border-bottom-color: bisque
+        border-bottom-color: bisque;
 }
 .header__navanchor--activo{
     background-color:white;
-    transition: 3s;
-          
+    transition: 3s;          
 }   
 .header__navanchor--activo:hover{   
                         height: 30px;
@@ -76,18 +75,18 @@ padding-top: 2rem;
     font-size: 3rem;
     color: white;    
  }
- .main__section {
-                display: flex;
-                flex-direction: row;                
-}
+ /*.main__section {
+                /*display: flex;
+                flex-direction: row;            
+}*/
 .main__section p {
             padding-top: 0rem;
-            padding-left: 1rem    
+            padding-left: 1rem;    
 }
-.main__section2{
-                display: flex;
-                flex-direction: row;                
-}
+/*.main__section2{
+               /* display: flex;
+                flex-direction: row;               
+}*/
 .main__section2 p{
                   padding-top: 2rem;  
 }
@@ -110,8 +109,8 @@ p {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.main__discografia {
-                    display: grid;
+/*.main__discografia {
+                  /*  display: grid;
                     grid-template-columns: repeat(4, 300px);
                     grid-template-rows: repeat(2, 300px);
                     overflow: hidden;
@@ -120,8 +119,8 @@ p {
                     height: 55rem;
                     justify-content: space-evenly;
                     align-content: space-around;
-                    text-align: center;
-}
+                    text-align: center;*/
+
 .main__fotobanda1{ 
                     height: 400px;
 }
@@ -149,25 +148,23 @@ p {
                 background-color: black;
 }
 
-/*estilos media queries moviles*/   
+/*estilos media queries moviles*/
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px){/*
     .main__discografia {
-        display: grid;
+        /*display: grid;
         grid-template-columns: repeat(3, 300px);
         text-align: center;
-        height:1300px}
-.main__section   { 
+        height:1300px}*/
+/*.main__section   { 
         display: flex;
         flex-direction: column;
-    }
-  .imagen1__main{  
+    }*/
+.imagen1__main{  
     height: 590px;
     padding: 1rem;
     }    
 }
-
-
 
 @media screen and (max-width: 768px){
  .header__logo {
@@ -177,25 +174,26 @@ p {
         font-size: 2rem;
         padding-left: 13rem;
     }
-    .main__section {
+    /*.main__section {
         display: grid;
-    }
+    }*/
    .imagen1__main {
         height: 445px;
     }
     .imagen2__main{
             height: 525px;
         }
-.main__section2{
+        }
+/*.main__section2{
                 display: grid;
-}
+}/*
 .main__discografia{
         display: grid;
         grid-template-columns: repeat(2,300px);
         height: 100rem;
-    }
+    }*/
 
-    }
+    
 
 @media screen and (max-width: 425px) {
     .header{
