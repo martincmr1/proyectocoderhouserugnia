@@ -13,39 +13,47 @@
 </head>
 <body>
     <audio src="../img/would.mp3" autoplay></audio>
-    <header class="header">
-        <img class="header__logo" data-aos="flip-left" src="../img/logo.jpg" alt="logo">   
-        <nav>
-            <ul class="header__navlist">
-                <li class="header__navanchor"><a href="../index.html">Inicio</a></li>
-                <li class="header__navanchor"><a href="nirvana.html">Nirvana</a></li>
-                <li class="header__navanchor"><a href="pearljam.html">Pearl Jam</a></li>
-                <li class="header__navanchor"><a href="soundgarden.html">Soundgarden</a> </li>
-                <li class="header__navanchor--activo"><a href="aliceinchains.html">Alice In Chains</a></li>
-          </ul>
-         </nav>
-          <form action="#" method="get" enctype="multipart/form-data" class="header_formulario">
-            <fieldset>
-                <legend><strong>USUARIOS REGISTRADOS</strong></legend>
-                <div>
-                    <label for="mail">Email</label>
-                    <input type="mail" name="mail" id="mail" required>
-                </div>
-                <div>
-                    <label for="email">Contraseña</label>
-                    <input type="password" name="password" id="password" required>
-                    <input type="submit" value="ingresa">
-                </div> 
-                    <a class=registro href="contacto.html">Registrate</a>                         
-            </fieldset>
-            </form>       
+    <header class="header">  
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid navbar--color">
+            <img class="header__logo" data-aos="flip-left" src="../img/logo.jpg" alt="logo
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item nav__color">
+                  <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../vistas/nirvana.html">Nirvana</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../vistas/pearljam.html">Pearl Jam</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../vistas/soundgarden.html">Soundgarden</a>
+                    <li class="nav-item">
+                      <a class="nav-link active header__navanchor--activo" href="../vistas/aliceinchains.html">Alice In Chains</a>
+                      
+  
+                  
+                
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
     </header>
             <main class="main">
                 <h1 class="main__titulo">Alice In Chains</h1>
              <div class="container-fluid">
                 <section class="main__section row">
                     <div class="col">
-                        <img class="main__fotobanda1" src="../img/alice.jpg" alt="alice">
+                        <img class="main__fotoalice1" src="../img/alice.jpg" alt="alice">
                     </div>
                     <div class="col">
                         <p class="main__sectionparrafo">Alice in Chains es una banda de grunge estadounidense fundada en 1987 en Seattle, por Layne Staley (voz), Jerry Cantrell (guitarra/voz), Mike Starr (bajo/voz) y Sean Kinney (batería/percusión). En 1993 Mike Inez se uniría como reemplazo de Starr. Posteriormente William DuVall sería el vocalista, tras el fallecimiento de Staley en 2002.
@@ -65,7 +73,7 @@
 </div>
 
 <div class="container-fluid">
-    <section class="main__discografia row">
+    <section class="main__discografia container-fluid row">
         <div class="col">
             <img src="../img/Alicefacelift.jpg" alt="facelift">
             <p>Facelift</p>
@@ -103,9 +111,13 @@
 </div>
 
     </main>
-        <footer class="footer">
-            <p> ®Copyright 2022 Tincho Productions.Todos los derechos reservados</p>
-        </footer>
+    <footer class="footer">    
+      <div class="d-grid gap-2 d-md-flex justify-content-center">
+       <a class="btn btn-primary m-5" href="../vistas/contacto.html" role="button">REGISTRATE PARA RECIBIR CONTENIDO EXCLUSIVO</a>
+      </div>
+      
+      
+     </footer>
         <script>
             AOS.init();
           </script>
