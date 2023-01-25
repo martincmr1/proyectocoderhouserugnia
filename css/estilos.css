@@ -8,6 +8,7 @@
 .navbar {
     --bs-navbar-hover-color: white;
     font-size: 1.3rem;
+    
 }
 
 .nav-link {
@@ -30,8 +31,8 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
 }
 .header__logo{
                 height: 70px;
-                margin-right: 7rem;
-                margin-left: 1rem;                            
+                margin: auto;
+
 }
 .header__navanchor--activo{
     background-color:white;
