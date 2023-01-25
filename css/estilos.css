@@ -45,9 +45,9 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
 
 /*ESTILOS MAIN*/
 
-.container-fluid.main__discografia {
+/*.container-fluid.main__discografia {
                                     margin-left: 2rem;
-}
+}*/
 .main {
     background-image: url(../img/fondo4.jpg);
     background-repeat: no-repeat;
@@ -489,7 +489,7 @@ p {
     .main__discografia {
                         margin-left: 0rem;
     }
-    .container-fluid.main__discografia {
+    /*.container-fluid.main__discografia {
                                         margin-left: auto;
-    }
+    }*/
 }
