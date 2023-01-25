@@ -326,14 +326,12 @@ p {font-size: 1rem;
                 margin-bottom: 3rem;
 }
 .imagen1__main {
-        height: 190px;
-        margin-left: 2rem;
+        height: 180px;
+        margin-left: 3rem;
 }
 .imagen2__main {    
-        height: 210px;
-        padding: 0%;
-        margin-bottom: 3rem;
-        margin-right: 6rem;        
+        height: 200px;
+        margin-left: 2rem;       
 }
 .main__section1 {
                     margin:auto;
