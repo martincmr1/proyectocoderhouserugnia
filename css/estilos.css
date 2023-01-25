@@ -318,8 +318,7 @@ p {
 }
           
 @media screen and (max-width: 425px) {
-p {
-    font-size: 1rem;
+p {font-size: 1rem;
     text-align: justify;
     margin: 2rem;
 }
@@ -391,7 +390,7 @@ p {
     }
     .parrafo1__main {
                     margin: 2rem;
-                    ove
+                    
     }
     .parrafo2__main {
                      text-align: justify;
@@ -402,16 +401,7 @@ p {
                             margin-right: 1rem;
 }
 }
-/*
-}
-.d-grid .gap-2 .d-md-flex .justify-content-center {
-                                                  margin-left: 1rem;
-                                                  margin-right: 1rem;
-}
-.container {    
-                margin-left: 1rem;
-                margin-right: 1rem;
-}*/
+
 
 
 @media screen and (max-width: 375px) {      
