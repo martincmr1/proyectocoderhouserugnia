@@ -30,7 +30,8 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
 }
 .header__logo{
                 height: 70px;
-                margin-right: 7rem;                            
+                margin-right: 7rem;
+                margin-left: 1rem;                            
 }
 .header__navanchor--activo{
     background-color:white;
@@ -68,14 +69,16 @@ font-size: 2.5rem;
             margin-left: 0%;
 }
 .imagen1__main{ 
-                height: 400px; 
-                margin-top: 6rem; 
-                margin-right:3rem;      
+                height: 350px; 
+                margin-top: 2rem; 
+                margin-right:2rem;  
+                margin-left: 3rem;    
 }
 .imagen2__main{ 
-                height: 500px;
+                height: 450px;
                 margin-top: 2rem;
                 padding: 1rem;
+                margin-right: 2rem;
 }
 
 p {
@@ -125,7 +128,7 @@ p {
 
 /*ESTILOS MAIN PEARL JAM*/
 .pearljam__fotobanda1 {
-                        height: 450px;
+                        height: 460px;
                         margin-left: 4rem;
                         margin-top: 1rem;
 }
@@ -314,25 +317,51 @@ p {
 }
           
 @media screen and (max-width: 425px) {
-    .imagen1__main {
-        height: 180px;
+p {
+    font-size: 1rem;
+    text-align: justify;
+    margin: 2rem;
+}
+.main__titulo2 {
+                margin-bottom: 3rem;
+}
+.imagen1__main {
+        height: 190px;
         margin-left: 3rem;
+}
+.imagen2__main {    
+        height: 210px;
+        padding: 0%;
+        margin-bottom: 3rem;
+        margin-right: 6rem;        
+}
+.main__section1 {
+                    margin:auto;
+                    overflow: hidden;
+}
+.main__section2 {   
+                margin: auto;
+                overflow: hidden;
+}
+.main__titulo { 
+                font-size: 2rem;
     }
-    .main__titulo { 
-                margin-left: 1rem;
-    }
-    .nirvana__fotobanda {
+.main__titulo2 { 
+                    font-size: 2rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    padding: 0%;                    
+        }
+.nirvana__fotobanda {
         height: 180px;
         margin-bottom: 1rem;
         margin-right: 6rem;
 }
-
 .nirvana__fotobanda2 {
     height: 180px;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     margin-right: 6rem;
 }
-
 .nirvana__fotobanda3 {
     height: 180px;
     margin-bottom: 1rem;
@@ -343,17 +372,12 @@ p {
             margin-left: 2rem;
             margin-bottom: 1rem;
 }
-.nirvana__parrafo {
-        font-size: 1.2rem;
-}
-.imagen2__main {    
-                height: 240px;
-}
-.pearljam__fotobanda1{ height: 200px;
+        
+.pearljam__fotobanda1 {height: 170px;
                     
 }
 .pearljam__fotobanda2{
-                        height: 200px;
+                        height: 170px;
 }
 .container-fluid.main__discografia {
     margin-left: 3rem;
@@ -362,10 +386,31 @@ p {
                         height: 200px;
     }
     .main__fotoalice1 {
-                        height: 200px;
-                        
+                        height: 170px;                    
     }
+    .parrafo1__main {
+                    margin: 2rem;
     }
+    .parrafo2__main {
+                     text-align: justify;
+                     margin-right: 2rem;
+    }
+.navbar.navbar-expand-lg {  
+                            margin-left: 1rem;
+                            margin-right: 1rem;
+}
+}
+/*
+}
+.d-grid .gap-2 .d-md-flex .justify-content-center {
+                                                  margin-left: 1rem;
+                                                  margin-right: 1rem;
+}
+.container {    
+                margin-left: 1rem;
+                margin-right: 1rem;
+}*/
+
 
 @media screen and (max-width: 375px) {      
         
