@@ -342,10 +342,12 @@ p {font-size: 1rem;
 .imagen1__main {
         height: 185px;
         margin-left: 2rem;
+        overflow: hidden;
 }
 .imagen2__main {    
         height: 230px;
-        margin-left: 1rem;       
+        margin-left: 1rem; 
+        overflow: hidden;      
 }
 .main__section1 {
                     margin:auto;
@@ -365,25 +367,29 @@ p {font-size: 1rem;
                     padding: 0%;                    
         }
 .nirvana__fotobanda {
-        height: 215px;
+        height: 210px;
         margin-bottom: 1rem;
         margin-left: 2rem;
+        overflow: hidden;
          
 }
 .nirvana__fotobanda2 {
-                    height: 215px;
+                    height: 210px;
                     margin-left:2rem;
+                    overflow: hidden;
                           
 }
 .nirvana__fotobanda3 {
-    height: 215px;
+    height: 210px;
     margin-left: 2rem;
+    overflow: hidden;
 
 }
 .nirvana__fotobanda4 {
-            height: 180px;
+            height: 175px;
             margin-left: 2rem;
             margin-bottom: 1rem;
+            overflow: hidden;
 }
         
 .pearljam__fotobanda1 {
