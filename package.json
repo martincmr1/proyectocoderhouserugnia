@@ -1,0 +1,25 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/main.scss css/compilado.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martincmr1/proyectocoderhouserugnia.git"
+  },
+  "author": "carlos martin rugnia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martincmr1/proyectocoderhouserugnia/issues"
+  },
+  "homepage": "https://github.com/martincmr1/proyectocoderhouserugnia#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
