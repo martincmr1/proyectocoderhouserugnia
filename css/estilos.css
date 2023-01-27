@@ -10,7 +10,6 @@
     font-size: 1.3rem;
     
 }
-
 .nav-link {
     color: gray;
     background-color: black;
@@ -19,7 +18,6 @@
     color: gray;
     background-color: black;
 }
-
 nav.navbar.navbar-expand-lg.bg-body-tertiary{
     background-color: black; 
 }
@@ -61,14 +59,23 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary{
     padding: 2rem;
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
 }
+
+
 .main__titulo2 { 
 color: white;
 text-align: center;
 padding-top: 3rem;
 padding-bottom: 3rem;
 font-size: 2.5rem;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+
 }
+
 .parrafo1main {
             margin-left: 0%;
 }
@@ -88,11 +95,10 @@ font-size: 2.5rem;
 p {
     color: darkgray;
     font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
     }
-    .main__section {    
-        display: flex;
-        
-}
+
+
 
 
 
@@ -245,7 +251,52 @@ p {
 }
     }
 
-
+@media (max-width:802px){
+.imagen1__main { 
+                height: 375px;
+                margin-left: 1rem;
+    }
+    .imagen2__main {
+                    height: 450px;
+                    margin-left: 1rem;
+    }
+    .nirvana__fotobanda {
+                        margin-left: 1rem;
+                        height: 480px;
+                    }
+     .nirvana__fotobanda2 {
+                        margin-left: 1rem;
+                        height: 480px;                   
+     }   
+     .nirvana__fotobanda3 {
+                        margin-left: 1rem;
+                        height:475px ;
+     }        
+     .nirvana__fotobanda4 {
+                            margin-left: 1rem;
+                            height: 400px;
+                        }    
+    .contenedor__discografia {
+                                width: 648px;
+                                margin-left:2rem;
+    }
+    .pearljam__fotobanda1 { 
+                            height: 530px;
+                            margin-left: 1rem;
+    }
+    .pearljam__fotobanda2 {
+                            margin-left: 1rem;
+                            height: 482px;
+                        }
+    .main__fotosound1 {
+                        margin-left: 1rem;
+                        height: 520px;
+    }            
+    .main__fotoalice1 {
+                        margin-left: 1rem;
+                        height: 440px;
+    }        
+}
 
 
 @media (max-width:770px){
@@ -335,6 +386,7 @@ p {
 p {font-size: 1rem;
     text-align: justify;
     margin: 2rem;
+    
 }
 .main__titulo2 {
                 margin-bottom: 3rem;
