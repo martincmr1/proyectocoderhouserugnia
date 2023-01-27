@@ -276,10 +276,8 @@ p {
                             margin-left: 1rem;
                             height: 400px;
                         }    
-    .contenedor__discografia {
-                                width: 648px;
-                                margin-left:2rem;
-    }
+    
+    
     .pearljam__fotobanda1 { 
                             height: 530px;
                             margin-left: 1rem;
@@ -295,7 +293,11 @@ p {
     .main__fotoalice1 {
                         margin-left: 1rem;
                         height: 440px;
-    }        
+    }     
+    .contenedor__discografia {
+        
+        margin-left:2rem;
+}
 }
 
 
@@ -525,6 +527,7 @@ p {font-size: 1rem;
 @media (max-width: 320px) {
 .contenedor__discografia{
                         margin-left: 1rem;
+                        
 }
     .main__titulo {
         font-size: 1.5rem;
