@@ -1,0 +1,14 @@
+/*ESTILOS FOOTER*/
+.btn {
+    background-color:$gris;
+    align-content: center;
+    border-color: $gris;
+    color: $blanco;    
+}
+.footer {
+        background-color: $negro;
+        padding: 2rem;
+        & p {
+            text-align: center;
+            }       
+}

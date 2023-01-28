@@ -1,0 +1,52 @@
+/*ESTILOS MAIN*/
+
+.main {
+        background-image: url(../img/fondo4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;   
+        &__titulo {
+                    color: white;
+                    text-align: center;
+                    padding: 2rem;
+                    font-size: $fuentemediana;
+                    margin-bottom: 2rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bolder; 
+                   }
+         &__titulo2 {
+                    color: white;
+                     text-align: center;
+                    padding-top: 3rem;
+                    padding-bottom: 3rem;
+                    font-size: 2.5rem;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bolder; 
+                    } 
+        &.imagen1__main{                
+                            height: 350px; 
+                            margin-top: 6rem; 
+                             margin-right:2rem;  
+                            margin-left: 3rem;    
+                            } 
+        &.imagen2__main{ 
+                        height: 450px;
+                        margin-top: 2rem;
+                         padding: 1rem;
+                         margin-right: 2rem;
+                            } 
+        &.titulo__carrusel {
+                            font-size: 5rem;
+                            font-style: oblique;
+                            text-align: center;
+                             }   
+      &.contenido__carrusel {
+                            font-size: 3rem;
+                            color:white;
+                            text-align: center;
+                             }                               
+}
+p {
+    color: darkgray;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+}

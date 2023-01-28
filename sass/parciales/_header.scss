@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+                
+
+/* ESTILOS HEATHER*/
+.navbar {
+    --bs-navbar-hover-color: $blanco;
+    font-size: 1.3rem;
+    
+}
+.nav-link {
+    color: $gris;
+    background-color: $negro;
+}
+.navbar-brand{
+    color: $gris;
+    background-color: $negro;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary{
+    background-color: $negro; 
+}
+.icono {
+    color: $blanco;
+}
+
+.header {
+        background-color: $negro; 
+        &__logo {
+                height: 70px;
+                margin: auto;
+        }
+        &__navanchor--activo{
+                            background-color:$blanco;
+                            transition: 2s;          
+        }
+        &__navanchor--activo:hover{   
+                                    height: 20px;
+        }         
+}
