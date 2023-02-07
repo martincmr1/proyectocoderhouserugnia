@@ -462,7 +462,8 @@
     }
     .main__fotoalice1 {
                         height: 220px;
-                        margin-left: 2rem;                   
+                        margin-left: 2rem;
+                        padding-left: 0rem;                   
     }
     .parrafo1__main {
                     margin: 2rem;
@@ -518,7 +519,8 @@
                         margin-left: 2rem;
     }
     .main__fotoalice1 {
-                        height: 190px;
+                        height: 185px;
+                        padding-left: 0rem;
     }
     }
     @media (max-width: 350px) {
@@ -580,7 +582,7 @@
                             margin-left: 2rem;
     }
     .main__fotosound1 {
-                        height: 170px;
+                        height: 175px;
                         margin-left: 2rem;
     }
     .movil {
@@ -589,6 +591,7 @@
     .main__fotoalice1{
                       margin-left: 2rem;
                       height: 150px;
+                      padding-left: 0rem;
     }
     }
     
