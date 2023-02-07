@@ -61,20 +61,23 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
 
 .imagen1__main {
   height: 350px;
-  margin-top: 6rem;
+  margin-top: 3rem;
   margin-right: 2rem;
   margin-left: 3rem; }
 
 .imagen2__main {
-  height: 450px;
-  margin-top: 2rem;
-  padding: 1rem;
-  margin-right: 2rem; }
+  height: 350px;
+  margin-top: 4rem;
+  margin-right: 2rem;
+  margin-block-end: 1rem;
+  padding-left: 3rem; }
 
 p {
   color: darkgray;
   font-size: 1.25rem;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  margin-right: 2rem; }
 
 .titulo__carrusel {
   font-size: 5rem;
@@ -137,12 +140,12 @@ p {
 
 /*ESTILOS MAIN SOUNDGARDEN*/
 .main__fotosound1 {
-  margin-top: 4.5rem; }
+  margin-top: 6rem; }
 
 /*ESTILOS MAIN ALICEINCHAINS*/
 .main__fotoalice1 {
-  height: 450px;
-  margin-left: 2rem; }
+  height: 400px;
+  margin-top: 6rem; }
 
 /*estilos pagina de registro*/
 /*ESTILOS FOOTER*/
@@ -168,13 +171,14 @@ p {
     height: 40px;
     margin-right: 2rem; }
   .imagen1__main {
-    height: 450px;
-    margin-left: 4rem;
+    height: 540px;
+    margin-left: 1rem;
     margin-bottom: 2rem; }
   .imagen2__main {
-    height: 600px;
+    height: 540px;
     margin-top: 4rem;
-    margin-left: 1rem; }
+    margin-left: 1rem;
+    padding-left: 0rem; }
   .nirvana__fotobanda {
     height: 350px;
     margin-top: 12rem; }
@@ -199,9 +203,10 @@ p {
     margin-top: 1rem;
     margin-bottom: 2rem; }
   .main__fotoalice1 {
-    height: 580px;
+    height: 590px;
     margin-top: 2rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    padding-left: 1rem; }
   .contenedor__discografia {
     margin-left: 6rem; } }
 
@@ -338,15 +343,16 @@ p {
     font-size: 2rem;
     padding-left: 1rem; }
   .imagen1__main {
-    height: 370px;
+    height: 395px;
     overflow: hidden;
     margin-left: 1rem;
     margin-bottom: 2rem; }
   .imagen2__main {
-    height: 450px;
+    height: 380px;
     overflow: hidden;
     margin-left: 1rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    padding-left: 1rem; }
   .nirvana__fotobanda {
     height: 470px;
     margin-left: 1rem;
@@ -464,9 +470,10 @@ p {
     margin-left: 2rem;
     overflow: hidden; }
   .imagen2__main {
-    height: 230px;
+    height: 170px;
     margin-left: 1rem;
-    overflow: hidden; }
+    overflow: hidden;
+    padding-left: 1rem; }
   .main__section1 {
     margin: auto;
     overflow: hidden; }
@@ -537,13 +544,17 @@ p {
     height: 150px; }
   .imagen1__main {
     height: 160px; }
+  .imagen2__main {
+    height: 150px;
+    padding-left: 1rem; }
   .contenedor__discografia {
     margin-left: 1rem; }
   .pearljam__fotobanda1 {
     margin-left: 2rem;
     height: 215px; }
   .pearljam__fotobanda2 {
-    margin-left: 2rem; }
+    margin-left: 2rem;
+    height: 190px; }
   .main__fotosound1 {
     height: 220px;
     margin-left: 2rem; }
@@ -561,8 +572,9 @@ p {
     margin-left: 2rem;
     height: 130px; }
   .imagen2__main {
-    height: 160px;
-    margin-left: 1rem; }
+    height: 120px;
+    margin-left: 2rem;
+    padding-left: 0rem; }
   .main__titulo2 {
     font-size: 1.5rem; }
   .parrafo1__main {
